@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>飞书水印消除</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <img id="toggleIcon" class="icon" src="icons/switch_on.svg" alt="启用/禁用水印消除" title="点击切换水印消除" role="button" tabindex="0" />
+      </div>
+      <div id="status" class="status" title="当前状态">状态</div>
+      <div class="hint" title="仅在 *.feishu.cn 域名生效">仅在 *.feishu.cn 域名生效</div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
